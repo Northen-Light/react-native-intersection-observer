@@ -1,1 +1,2 @@
-export { default } from "./IntersectionObserver";
+import IntersectionObserver from './IntersectionObserver';
+export default IntersectionObserver;
