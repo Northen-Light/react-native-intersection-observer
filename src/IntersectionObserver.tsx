@@ -94,8 +94,9 @@ export default (props: IntersectionObserverProps) => {
   );
 };
 
-/* intersection observer logic : how much mainRect is visible in boundingRect via
-   returning intersection ratio in both directions (vertical and horizontal)
+/* intersection observer logic : it computes how much the main rectangle is intersecting with the
+   bounding / parent rectangle via returning intersection ratio in both directions (vertical and
+   horizontal)
 */
 const calculateIntersectionRatio = (mainRect: Rectangle, boundingRect: Rectangle) => {
   const topBoundary = Math.min(Math.max(mainRect.top, boundingRect.top), boundingRect.bottom);
