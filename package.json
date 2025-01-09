@@ -1,0 +1,20 @@
+{
+  "name": "react-native-intersection-observer",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "Exposes an component which is aware of its intersection with the parent viewport or default react-root viewport",
+  "author": "Prateek Patnaik",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json --outDir dist/",
+    "watch": "tsc -w"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.18",
+    "@types/react-native": "0.72.4",
+    "@types/node": "22.10.5",
+    "prettier": "3.2.5",
+    "typescript": "5.7.2"
+  }
+}
