@@ -21,21 +21,21 @@ machine busy and can consume CPU cycles. However, this doesn't block the main th
 
     import IntersectionObserver from 'react-native-intersection-observer';
     
-    const RenderBanner = () => {
+    const RenderComponent = () => {
       return (
         <View>
           <Text>Some Text</Text>
         </View>
       );
     };
-    const BannerWithIntersectionObserver = () => {
+    const ComponentWithIntersectionObserver = () => {
       // onView
       const onViewHandler = (isVisible, viewedOnce) => {
         // isVisible : boolean, viewedOnce : boolean
       };
       return (
         <IntersectionObserver onChange={onViewHandler} delay={500}>
-          <RenderBanner/>
+          <RenderComponent/>
         </IntersectionObserver>
         // Always pass verticalThreshold and horizontalThreshold values between 0 and 1
         // [left, right] for horizontalThreshold and [top, bottom] for verticalThreshold
