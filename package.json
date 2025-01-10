@@ -1,5 +1,5 @@
 {
-  "name": "react-native-intersection-observer",
+  "name": "react-native-viewport-aware-component",
   "version": "0.0.1",
   "license": "MIT",
   "description": "Exposes an component which is aware of its intersection with the parent viewport or default react-root viewport",

@@ -1,4 +1,4 @@
-# react-native-intersection-observer
+# react-native-viewport-aware-component
 Exposes a component which is aware of its intersection with the parent viewport or default react-root viewport
 
 ### Idea
@@ -19,7 +19,7 @@ machine busy and can consume CPU cycles. However, this doesn't block the main th
 ```javascript
     import React from 'react';
 
-    import IntersectionObserver from 'react-native-intersection-observer';
+    import IntersectionObserver from 'react-native-view-aware-component';
     
     const RenderComponent = () => {
       return (
