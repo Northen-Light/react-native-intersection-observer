@@ -12,7 +12,7 @@ and measure can be called on it, and clear the timer when the component is unmou
 1. Integration is simple and the component is easy to use.
 
 ### Cons
-1. We are setting up interval to every component which we want to observe which can keep JS virtual 
+1. We are setting up interval to every component that we want to observe which can keep JS virtual 
 machine busy and can consume CPU cycles. However, this doesn't block the main thread.
 
 ## Code Example
